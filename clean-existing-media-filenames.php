@@ -136,19 +136,18 @@ class CleanExistingMediaFilenames {
 		$input = array(
 			'ß',
 			'·',
-			'%', // Remove any % characters, which are URL safe but not filename safe.
 		);
 
 		$output = array(
 			'ss',
 			'.',
-			'',
 		);
 
 		$path         = pathinfo( $filename );
 		$new_filename = preg_replace( '/.' . $path['extension'] . '$/', '', $filename );
 		$new_filename = str_replace( $input, $output, $new_filename );
-		return sanitize_title( $new_filename ) . '.' . $path['extension'];
+		$new_filename = sanitize_title( $new_filename ) . '.' . $path['extension'];
+		return str_replace( '%', '', $new_filename ); // Remove any % characters, which are URL safe but not filename safe.
 
 	}
 
