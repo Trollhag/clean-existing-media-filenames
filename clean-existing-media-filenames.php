@@ -174,8 +174,6 @@ class CleanExistingMediaFilenames {
 
 			if ( $renamed ) {
 
-				$meta['file'] = $new_file;
-
 				if ( array_key_exists( 'sizes', $meta ) ) {
 
 					foreach ( $meta['sizes'] as $size => $data ) {
@@ -203,6 +201,8 @@ class CleanExistingMediaFilenames {
 
 					update_post_meta( intval( $id ), '_wp_attachment_backup_sizes', $backup );
 				}
+
+				$meta['file'] = $new_file;
 
 				update_post_meta( intval( $id ), '_wp_attached_file', $new_file );
 				update_post_meta( intval( $id ), '_wp_attachment_metadata', $meta );
