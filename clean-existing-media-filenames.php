@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Clean Existing Media Filenames
  * Description: This plugin cleans the filenames of the existing attachments.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Oscar Trollhag
  * Author URI: https://trollhag.com
  * Text Domain: clean-existing-media-filenames

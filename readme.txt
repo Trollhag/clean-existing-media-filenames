@@ -4,7 +4,7 @@ Tags: images, files, media, existing, clean, filenames
 Requires PHP: 5.6
 Requires at least: 2.9
 Tested up to: 5.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://paypal.me/trollhag
@@ -30,5 +30,10 @@ This plugin is meant as a compliment to the [Clean Image Filenames](https://word
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 1.0.1 =
+
+- Fixed file sizes bug.
+- Fixed % chars in filenames.
 
 == Upgrade Notice ==
