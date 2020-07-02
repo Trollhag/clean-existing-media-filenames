@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fix existing media filenames\n"
+"POT-Creation-Date: 2020-07-02 12:12+0200\n"
+"PO-Revision-Date: 2020-07-02 12:13+0200\n"
+"Last-Translator: Oscar Trollhag <oscar@businessandemotions.se>\n"
+"Language-Team: Oscar Trollhag <oscar@businessandemotions.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: clean-existing-media-filenames.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: clean-existing-media-filenames.php:37
+msgid "Clean Existing Media Filenames"
+msgstr "Rengör Existerande Media Filnamn"
+
+#: clean-existing-media-filenames.php:85
+msgid "Failed to rename file. Check your WordPress filesystem permissions."
+msgstr "Misslyckades döpa om fil. Kolla över WordPress filsystem rättigheter."
+
+#: clean-existing-media-filenames.php:99
+msgid "No filenames need to be clean."
+msgstr "Inga filer behöver döpas om."
+
+#: clean-existing-media-filenames.php:102
+msgid "Fix filenames"
+msgstr "Fixa filnamn"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Trollhag/clean-existing-media-filenames"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin cleans the filenames of the existing attachments."
+msgstr "Detta tilläget rensar filnamnen på existerande media objekt."
+
+#. Author of the plugin/theme
+msgid "Trollhag"
+msgstr ""
