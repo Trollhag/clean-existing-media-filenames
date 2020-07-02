@@ -1,10 +1,10 @@
 <?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName
 /**
  * Plugin Name: Clean Existing Media Filenames
- * Plugin URI: https://github.com/Trollhag/clean-existing-media-filenames
  * Description: This plugin cleans the filenames of the existing attachments.
  * Version: 1.0.0
- * Author: Trollhag
+ * Author: Oscar Trollhag
+ * Author URI: https://trollhag.com
  * Text Domain: clean-existing-media-filenames
  * Domain Path: /languages
  * License: GPL2

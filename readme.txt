@@ -1,5 +1,5 @@
 === Clean Image Filenames ===
-Contributors: Trollhag
+Contributors: trollhag
 Tags: images, files, media, existing, clean, filenames
 Requires PHP: 5.6
 Requires at least: 2.9
@@ -8,7 +8,6 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://paypal.me/trollhag
-Plugin URI: https://github.com/Trollhag/clean-existing-media-filenames
 
 This plugin cleans the filenames of the existing attachments filenames.
 
